@@ -1,0 +1,29 @@
+/* pages/page3/toberecycled.wxss */
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.content{
+  margin-left: 40rpx;
+}
+.order{
+  margin-left: 40rpx;
+}
+.orderstate{
+  margin-left: 40rpx;
+}
+.line{
+  height: 1px;
+  background: #888;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}

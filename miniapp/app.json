@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/page1/search/search",
+    "pages/page1/tips",
+    "pages/page3/recycled",
+    "pages/page3/toberecycled"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "废宝",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/page1/page1",
+      "text": "首页",
+      "iconPath": "pages/page1/images/首页2.png",
+      "selectedIconPath": "pages/page1/images/首页.png"
+    },
+    {
+      "pagePath": "pages/page2/page2",
+      "text": "社区",
+      "iconPath": "pages/page2/images/社区2.png",
+      "selectedIconPath": "pages/page2/images/社区.png"
+    },
+    {
+      "pagePath": "pages/page3/page3",
+      "text": "订单",
+      "iconPath": "pages/page3/images/订单2.png",
+      "selectedIconPath": "pages/page3/images/订单.png"
+    },
+    {
+      "pagePath": "pages/page4/page4",
+      "text": "我的",
+      "iconPath": "pages/page4/images/我的2.png",
+      "selectedIconPath": "pages/page4/images/我的.png"
+    }
+    ]
+  }
+}

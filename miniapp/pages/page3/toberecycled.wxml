@@ -1,0 +1,61 @@
+<view class='row'>
+<view class='touxiang'>
+<image src='../../static/img/touxiang.png' style="width: 80rpx; height: 80rpx;"></image>
+</view>
+<view class='column'>
+<text>黄师傅</text>
+<text>tel:13212321452</text>
+</view>
+<view class='call'>
+<image src='../../static/img/call.png' style="width: 80rpx; height: 80rpx;"></image>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='column'> 
+<view class='orderstate'>
+<text>订单状态：</text>
+<text>已接单</text>
+</view>
+<view class='row'>
+<text>预计回收时间</text>
+<text>2018.5.15 </text>
+<text>13：00</text>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='column'> 
+<view class='content'>
+<text>用户估计订单详情：</text>
+</view>
+<view class='row'>
+<text>塑料类</text>
+<text>*1</text>
+<text>$1</text>
+</view>
+<view class='row'>
+<text>废纸类</text>
+<text>*1</text>
+<text>$3</text>
+</view>
+<view class='row'>
+<text>估价</text>
+<text> </text>
+<text>$4</text>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='column'> 
+<view class='order'>
+<text>订单号：</text>
+<text>12385621</text>
+</view>
+<view class='row'>
+<text>订单开始时间：</text>
+<text>2018.5.15 </text>
+<text>11：26</text>
+</view>
+</view>
+<view class='line'></view>

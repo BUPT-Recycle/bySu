@@ -1,0 +1,63 @@
+<view class='row'>
+<view class='touxiang'>
+<image src='../../static/img/touxiang.png' style="width: 80rpx; height: 80rpx;"></image>
+</view>
+<view class='column'>
+<text>黄师傅</text>
+<text>tel:13212321452</text>
+</view>
+<view class='call'>
+<image src='../../static/img/call.png' style="width: 80rpx; height: 80rpx;"></image>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='column'> 
+<view class='content'>
+<text>订单详情：</text>
+</view>
+<view class='row'>
+<text>塑料类</text>
+<text>*1</text>
+<text>$1</text>
+</view>
+<view class='row'>
+<text>废纸类</text>
+<text>*1</text>
+<text>$3</text>
+</view>
+<view class='row'>
+<text>总价</text>
+<text></text>
+<text>$4</text>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='column'> 
+<view class='order'>
+<text>订单号：</text>
+<text>12385621</text>
+</view>
+<view class='row'>
+<text>订单开始时间：</text>
+<text>2018.5.15 </text>
+<text>11：26</text>
+</view>
+<view class='row'>
+<text>订单结束时间：</text>
+<text>2018.5.15 </text>
+<text>11：49</text>
+</view>
+</view>
+<view class='line'></view>
+
+<view class='evaluate'>
+<text>评分：</text>
+<block wx:for="{{stars}}">
+  <image class="star-image" style="left: {{item*100}}rpx" src="{{key > item ?(key-item == 0.5?half:full) : empty}}">
+    <view class="item" style="left:0rpx" data-key="{{item+0.5}}" bindtap="selectLeft"></view>
+    <view class="item" style="left:50rpx" data-key="{{item+1}}" bindtap="selectRight"></view>
+  </image>
+</block>
+</view>

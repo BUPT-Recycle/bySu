@@ -1,0 +1,17 @@
+@import "/wxSearch/wxSearch.wxss";
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item{
+  display: flex;
+  border: 10px solid #fff;
+  flex-direction: column;
+}
+
+.row2{
+  display: flex;
+  justify-content: center;
+}

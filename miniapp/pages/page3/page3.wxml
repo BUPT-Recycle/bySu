@@ -1,0 +1,2 @@
+<button bindtap="goto1">已回收</button>  
+<button bindtap="goto2">待回收</button>

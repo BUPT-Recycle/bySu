@@ -1,0 +1,55 @@
+
+<view class="weui-search-bar">
+  <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+      <input type="text" class="weui-search-bar__input"  disabled='true' placeholder="搜索入口" bindtap="wxSearchTab"/>
+    </view>
+  </view>
+</view>
+
+<view>{{ searchValue}}</view>
+
+<view class="row">
+ <view class='item' style='order:1'>
+ <image src='/static/img/塑料.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 塑料</text>
+ </view>
+  <view class='item' style='order:2'>
+ <image src='/static/img/钢铁.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 钢铁</text>
+ </view>
+   <view class='item' style='order:3'>
+ <image src='/static/img/电池.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 电池</text>
+ </view>
+   <view class='item' style='order:4'>
+ <image  src='/static/img/废纸.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 废纸</text>
+ </view>
+  <view class='item' style='order:5'>
+ <image  src='/static/img/家电.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 家电</text>
+ </view>
+  <view class='item' style='order:6'>
+ <image  src='/static/img/玻璃.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 玻璃</text>
+ </view>
+  <view class='item' style='order:7'>
+ <image  src='/static/img/手机.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 手机</text>
+ </view>
+  <view class='item' style='order:8'>
+ <image  src='/static/img/其他.png' style="width: 120rpx; height: 120rpx;"></image>
+ <text> 其他</text>
+ </view>
+</view>
+
+<view class='row2'>
+<view class='item2'>
+<image src='/static/img/箱子.png' style="width: 500rpx; height: 500rpx;"></image>
+</view>
+<view class='item3'>
+<image src='/static/img/魔法棒.png' style="width: 200rpx; height: 200rpx;"></image>
+</view>
+</view>
